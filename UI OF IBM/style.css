@@ -1,0 +1,84 @@
+body{
+    background-image: url("../login_background.jpg");
+    background-size: cover;
+}
+.navbar-containers{
+    height: 60px;
+    background-color: rgb(22,22,22);
+    background-size: cover;
+}
+.navbar-component{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cloud{
+    color: white;
+    height: 50px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+
+.data {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.data a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: white;
+}
+.body-wrapper{
+
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.ibm-id{
+    background-color: #262626;
+    padding: 10px 100px 10px 20px;
+    color: white;
+
+}
+#submit{
+    padding: 20px 419px 20px 20px;
+    color: white;
+    background-color: #0f62fe;
+}
+#email{
+    padding: 10px  100px 10px 20px;
+    background-color: #262626;
+}
+.ibm-logo{
+    margin-bottom: 0;
+}
+.ibm-sign-in h3{
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.ibm-logo h1{
+
+    margin: 0;
+}
+.ibm-logo p{
+
+    margin: 0;
+}
+
+.remember span{
+    color: #161616;
+}
+.image img{
+    height: 50px;
+    margin-bottom: 20px;
+}
+#email:focus{
+    color: white;
+}
